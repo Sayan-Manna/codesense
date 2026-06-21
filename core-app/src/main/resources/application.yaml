@@ -4,9 +4,9 @@ spring:
 
   # ─── PostgreSQL ───────────────────────────────────────
   datasource:
-    url: jdbc:postgresql://localhost:5432/codesense
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://localhost:5433/codesense
+    username: codesense
+    password: codesense
     driver-class-name: org.postgresql.Driver
 
   # ─── JPA / Hibernate ─────────────────────────────────
