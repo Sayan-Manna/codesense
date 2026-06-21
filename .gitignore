@@ -1,0 +1,36 @@
+# CodeSense
+
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+
+# Node
+node_modules/
+.next/
+
+# Docker
+docker-compose.override.yml
+
+# Environment
+.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+implementation_plan.md
+
+.vscode
+.idea
