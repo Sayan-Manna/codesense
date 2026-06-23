@@ -38,6 +38,15 @@ dependencies {
     // Redis
     implementation("org.springframework.boot:spring-boot-starter-data-redis")
 
+    // Kafka
+    implementation("org.springframework.kafka:spring-kafka")
+
+    // JSON parsing
+    implementation("com.fasterxml.jackson.core:jackson-databind")
+
+    // Local in-memory cache (Caffeine)
+    implementation("com.github.ben-manes.caffeine:caffeine")
+
     // Lombok
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
